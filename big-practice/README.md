@@ -1,7 +1,7 @@
 
-# JavaScript-Practice
+# JAVASCRIPT - PRACTICE
 
-## Overview
+## OVERVIEW
 This is used to practice JavaScript skill.
 
 * Plan: https://docs.google.com/document/d/1r6wPSXX7v6j_jQ268UIoqrxCO2mqtAJj4xPjYLQmuCo/edit
@@ -19,7 +19,7 @@ This is used to practice JavaScript skill.
 * Do not support loading indicator
 
 
-## How to start
+## HOW TO START
 * Clone project : git clone git@github.com:quanghuy1799/javascript-practice.git
 
 * Move in practice folder: cd javascript-practice
@@ -37,6 +37,6 @@ This is used to practice JavaScript skill.
 * Apply ES6 features in JavaScript
 * DOM manipulation
 
-# Deploy Tools
+# DEPLOY TOOL
 * Vercel
 
