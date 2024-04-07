@@ -5,14 +5,18 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel ./src/index.html ",
-    "build": "parcel build ./src/index.html  --dist-dir ./dist",
+    "build": "parcel build ./src/index.html --dist-dir ./dist",
     "deploy": "vercel --prod"
   },
-
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "husky": "^9.0.11"
+    "husky": "^9.0.11",
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.3"
   }
 }
