@@ -2,14 +2,23 @@
   "name": "javascript-practice",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel ./src/index.html ",
+    "build": "parcel build ./src/index.html --out-dir ./dist",
+    "deploy": "vercel --prod"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "husky": "^9.0.11"
+    "cssnano": "^4.1.11",
+    "husky": "^9.0.11",
+    "parcel-bundler": "^1.12.5",
+    "postcss": "^8.4.38"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^4.4.1"
   }
 }
